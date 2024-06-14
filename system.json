@@ -9,5 +9,6 @@
 	"languages": ["lang/en.json"],
 	"packs": [],
 	"system": "core",
-	"templateVersion": 2
+	"templateVersion": 2,
+	"url": "https://github.com/vibhavariD/basic-foundry-system"
 }
