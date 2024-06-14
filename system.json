@@ -10,5 +10,7 @@
 	"packs": [],
 	"system": "core",
 	"templateVersion": 2,
-	"url": "https://github.com/vibhavariD/basic-foundry-system"
+	"url": "https://github.com/vibhavariD/basic-foundry-system",
+	"manifest": "https://raw.githubusercontent.com/vibhavariD/basic-foundry-system/main/system.json",
+	"download": "https://raw.githubusercontent.com/vibhavariD/basic-foundry-system/main/release.zip"
 }
