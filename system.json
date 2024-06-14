@@ -4,8 +4,8 @@
 	"version": "0.0.1",
 	"author": "name",
 	"description": "A custom system for Foundry VTT",
-	"esmodules": ["scripts/my-custom-system.js"],
-	"styles": ["styles/my-custom-system.css"],
+	"esmodules": ["scripts/basic-foundry-system.js"],
+	"styles": ["styles/basic-foundry-system.css"],
 	"languages": [{
 		"lang": "en",
 		"name": "English",
