@@ -1,7 +1,7 @@
 class CustomActorSheet extends ActorSheet {
   /** @override */
   get template() {
-    return `basic-foundry-system/templates/sheets/character-sheet.html`;
+    return `systems/basic-foundry-system/templates/sheets/character-sheet.html`;
   }
 
   /** @override */
