@@ -1,19 +1,52 @@
 <form class="sheet actor-sheet" data-type="character">
   <header class="sheet-header">
     <h1>{{name}}</h1>
+    <img src="{{img}}" alt="Character Image" class="character-image"/>
   </header>
+
   <div class="attributes">
+    <h2>Attributes</h2>
     {{#each data.attributes}}
     <div class="attribute">
-      <label>{{@key}}</label>
-      <input type="number" name="data.attributes.{{@key}}.value" value="{{this.value}}"/>
+      <label>{{@key}} Score</label>
+      <input type="number" name="data.attributes.{{@key}}.score" value="{{this.score}}"/>
+      <label>{{@key}} Modifier</label>
+      <input type="number" name="data.attributes.{{@key}}.modifier" value="{{this.modifier}}"/>
     </div>
     {{/each}}
   </div>
+
   <div class="hp">
-    <label>HP</label>
-    <input type="number" name="data.hp.value" value="{{data.hp.value}}"/>
+    <h2>Hit Points</h2>
+    <label>Current HP</label>
+    <input type="number" name="data.hp.current" value="{{data.hp.current}}"/>
+    <label>Max HP</label>
     <input type="number" name="data.hp.max" value="{{data.hp.max}}"/>
+  </div>
+
+  <div class="level-exp">
+    <h2>Level & Experience</h2>
+    <label>Level</label>
+    <input type="number" name="data.level.value" value="{{data.level.value}}"/>
+    <label>Experience Points</label>
+    <input type="number" name="data.exp.value" value="{{data.exp.value}}"/>
+  </div>
+
+  <div class="saves">
+    <h2>Saves</h2>
+    {{#each data.saves}}
+    <div class="save">
+      <h3>{{@key}}</h3>
+      <label>Score</label>
+      <input type="number" name="data.saves.{{@key}}.score" value="{{this.score}}"/>
+      <label>Mod</label>
+      <input type="number" name="data.saves.{{@key}}.mod" value="{{this.mod}}"/>
+      <label>Penalty</label>
+      <input type="number" name="data.saves.{{@key}}.penalty" value="{{this.penalty}}"/>
+      <label>Final</label>
+      <input type="number" name="data.saves.{{@key}}.final" value="{{this.final}}"/>
+    </div>
+    {{/each}}
   </div>
 </form>
 

@@ -1,18 +1,19 @@
 class CustomActorSheet extends ActorSheet {
   /** @override */
   get template() {
-    return `systems/my-custom-system/templates/sheets/character-sheet.html`;
+    return `basic-foundry-system/templates/sheets/character-sheet.html`;
   }
 
   /** @override */
   getData() {
     const data = super.getData();
+    // Additional data processing can go here.
     return data;
   }
 }
 
 Hooks.on("ready", () => {
   Actors.unregisterSheet("core", ActorSheet);
-  Actors.registerSheet("my-custom-system", CustomActorSheet, { makeDefault: true });
+  Actors.registerSheet("basic-foundry-system", CustomActorSheet, { makeDefault: true });
 });
 

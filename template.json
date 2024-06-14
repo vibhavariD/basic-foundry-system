@@ -5,21 +5,24 @@
     "img": "icons/svg/mystery-man.svg",
     "data": {
       "attributes": {
-        "strength": { "value": 10 },
-        "dexterity": { "value": 10 },
-        "constitution": { "value": 10 },
-        "intelligence": { "value": 10 },
-        "wisdom": { "value": 10 },
-        "charisma": { "value": 10 }
+        "strength": {"score": 10, "modifier": 0},
+        "dexterity": {"score": 10, "modifier": 0},
+        "constitution": {"score": 10, "modifier": 0},
+        "intelligence": {"score": 10, "modifier": 0},
+        "wisdom": {"score": 10, "modifier": 0},
+        "charisma": {"score": 10, "modifier": 0}
       },
       "hp": {
-        "value": 10,
+        "current": 10,
         "max": 10
       },
-      "exp": {
-	      "value": 0
+      "level": {"value": 0},
+      "exp": {"value": 0},
+      "saves": {
+              "hardiness": {"score": 15, "mod": 0, "penalty": 0, "final": 15},
+              "evasion": {"score": 15, "mod": 0, "penalty": 0, "final": 15},
+              "spirit": {"score": 15, "mod": 0, "penalty": 0, "final": 15}
       }
     }
   }
-}
 
