@@ -9,9 +9,11 @@
       "charisma": "Charisma"
     },
     "hp": {
-      "value": "HP",
+      "current": "HP",
       "max": "Max HP"
-    }
+    },
+    "level": {"value" : "Level"},
+    "exp": {"value": "XP"},
   }
 }
 
