@@ -6,6 +6,7 @@
 	"description": "A custom system for Foundry VTT",
 	"esmodules": ["scripts/my-custom-system.js"],
 	"styles": ["styles/my-custom-system.css"],
+	"languages": ["lang/en.json"],
 	"packs": [],
 	"system": "core",
 	"templateVersion": 2
