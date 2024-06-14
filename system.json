@@ -7,7 +7,6 @@
 	"esmodules": ["scripts/my-custom-system.js"],
 	"styles": ["styles/my-custom-system.css"],
 	"packs": [],
-	"languages": ["lang/en.json"],
 	"system": "core",
 	"templateVersion": 2
 }

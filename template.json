@@ -1,0 +1,25 @@
+{
+  "Actor": {
+    "type": "character",
+    "name": "New Character",
+    "img": "icons/svg/mystery-man.svg",
+    "data": {
+      "attributes": {
+        "strength": { "value": 10 },
+        "dexterity": { "value": 10 },
+        "constitution": { "value": 10 },
+        "intelligence": { "value": 10 },
+        "wisdom": { "value": 10 },
+        "charisma": { "value": 10 }
+      },
+      "hp": {
+        "value": 10,
+        "max": 10
+      },
+      "exp": {
+	      "value": 0
+      }
+    }
+  }
+}
+

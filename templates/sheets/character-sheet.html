@@ -1,0 +1,19 @@
+<form class="sheet actor-sheet" data-type="character">
+  <header class="sheet-header">
+    <h1>{{name}}</h1>
+  </header>
+  <div class="attributes">
+    {{#each data.attributes}}
+    <div class="attribute">
+      <label>{{@key}}</label>
+      <input type="number" name="data.attributes.{{@key}}.value" value="{{this.value}}"/>
+    </div>
+    {{/each}}
+  </div>
+  <div class="hp">
+    <label>HP</label>
+    <input type="number" name="data.hp.value" value="{{data.hp.value}}"/>
+    <input type="number" name="data.hp.max" value="{{data.hp.max}}"/>
+  </div>
+</form>
+

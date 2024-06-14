@@ -1,0 +1,25 @@
+.actor-sheet {
+  font-family: Arial, sans-serif;
+  padding: 10px;
+}
+
+.sheet-header {
+  text-align: center;
+}
+
+.attributes {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.attribute {
+  display: flex;
+  justify-content: space-between;
+}
+
+.hp {
+  margin-top: 10px;
+  text-align: center;
+}
+
